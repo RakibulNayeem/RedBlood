@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#72E7BB"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameEditTextId"
+        android:hint="Name"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailEditTextId"
+        android:hint="Email"
+        android:textSize="20sp"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userNameEditTextId"
+        android:hint="Username"
+        android:textSize="20sp"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordEditTextId"
+        android:hint="Password"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/genderEditTextId"
+        android:hint="Gender"
+        android:textSize="20sp"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bloodGroupeEditTextId"
+        android:hint="Blood Group"
+        android:textSize="20sp"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobileNumberEditTextId"
+        android:hint="Mobile number"
+        android:textSize="20sp"
+
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressEditTextId"
+        android:hint="Address"
+        android:textSize="20sp"
+
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Sign Up"
+        android:id="@+id/signUpButtonId"
+        android:layout_marginTop="20dp"
+        android:background="#059657"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Sign In Here"
+        android:id="@+id/signInButtonId"
+        android:layout_marginTop="20dp"
+        android:background="#059657"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+</LinearLayout>

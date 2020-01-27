@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#DA1515"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:textSize="20sp"
+            android:text="Name text"
+            android:id="@+id/nametextViewId"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:drawableLeft="@drawable/blood_drop"
+            android:textColor="#DA1515"
+            android:id="@+id/bloodGroupTextViewId"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="1dp"
+            android:layout_weight="0.7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Bgroup"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:textColor="#DA1515"
+            android:id="@+id/genderTextViewId"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="2dp"
+            android:text="Gender"
+            android:drawableLeft="@drawable/person_black_24dp"
+            android:layout_weight="1.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/callNowTextViewId"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"
+            android:onClick="CallHim"
+            android:src="@drawable/call_black_24dp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"/>
+
+
+
+        <ImageButton
+            android:id="@+id/viewProfileButtonId"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"
+            android:onClick="ViewProfile"
+            android:src="@drawable/account_circle_black_24dp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addressTextViewId"
+        android:drawableLeft="@drawable/location_on_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#DA1515"
+        android:layout_marginTop="0dp"
+        />
+
+</LinearLayout>
